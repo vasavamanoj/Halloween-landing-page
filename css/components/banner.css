@@ -1,0 +1,45 @@
+.hero-banner{
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.hero-bottom{
+  background-image:
+    url('../../images/Image7.png');
+  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 100%;
+  position: absolute;
+  bottom:0px;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 10s;
+}
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: calc(100% - 100px);
+   }
+  100% {
+    left: 0;
+    transform: rotate3d(1, 1, 1, 45deg);
+  }
+}
+.hero-banner .hero-off{
+  position: absolute;
+  right: 0;
+  top: 45%;
+}
+.hero-banner .hero-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

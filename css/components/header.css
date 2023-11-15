@@ -1,0 +1,43 @@
+
+header .navbox{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+header .logo{
+
+}
+header .head-menu{
+  display: flex;
+  align-items: center;
+}
+header .head-menu ul{
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+header .head-menu li{
+  padding-right: 25px;
+  font-size: 18px;
+}
+
+header .head-menu li:hover{
+  color: #E3B335;
+  cursor: pointer;
+}
+.hero-banner .hero-title{
+  flex-grow: 1;
+}
+.hero-banner .hero-title h1{
+  font-size: 45px;
+  line-height: 55px;
+}
+.hero-banner .hero-title h3{
+  font-size: 18px;
+  line-height: 26px;
+}
+.hero-banner .hero-title p{
+  font-size: 20px;
+  line-height: 30px;
+}

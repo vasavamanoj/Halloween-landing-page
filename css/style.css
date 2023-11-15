@@ -1,0 +1,45 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Componests css */
+@import url('./components/header.css');
+@import url('./components/banner.css');
+@import url('./components/card.css');
+@import url('./components/buttton.css');
+/*
+#E3B335 lightorange
+#F6762D orange
+#190249 blue */
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Irish Grover,Open Sans;
+  background-image: url(../images/Halloween_Bg.png);
+  background-size: cover;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+/* Custom design below! */
+.footer{
+  text-align: center;
+  padding: 60px;
+  background-color: #F6762D;
+}
+.footer .links a{
+  font-size: 30px;
+  color:#190249 ;
+}
+.footer .links a:hover{
+  color: #E3B335;
+}
